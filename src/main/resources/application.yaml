@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: user
+    password: password
+
+bot:
+  token: MTE0Mzc4MTUxODUyMzc3NzA0NA.G37e3g.4h3sJzCQxIWWxrUjyXGv82wNHmKhuZU496NvY8
+
+event-handler-thread-pool:
+  message-event:
+    queueCapacity: 1000
+    maxPoolSize: 10
+    corePoolSize: 10
+    threadNamePrefix: message_event-
