@@ -6,7 +6,7 @@ spring:
     password: password
 
 bot:
-  token: MTE0Mzc4MTUxODUyMzc3NzA0NA.G37e3g.4h3sJzCQxIWWxrUjyXGv82wNHmKhuZU496NvY8
+  token: {TOKEN}
 
 event-handler-thread-pool:
   message-event:
